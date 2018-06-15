@@ -1,0 +1,18 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 3508px;
+  width: 2480px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
