@@ -54,6 +54,6 @@ gulp.task("copy:images", function() {
 gulp.task(
   "default",
   gulp.series(
-    gulp.parallel("server", "copy:fonts", "copy:images", "css", "html")
+    gulp.parallel("server","css", "html", "copy:fonts", "copy:images", )
   )
 );
