@@ -342,3 +342,125 @@ body {
   border-right: none;
   border-left: none;
 }
+
+/* -- fifth page -- */
+
+.advantages {
+  display: flex;
+  margin: 0 -0.3cm;
+  flex-wrap: wrap;
+}
+
+.advantage {
+  margin: 0 0.3cm 0.6cm;
+  padding: 0.5cm 0.74cm 0.69cm;
+  width: calc(50% - 0.64cm);
+
+  background: #f5f5f5;
+}
+.advantage__icon {
+  margin-bottom: 0.5cm;
+}
+.advantage__icon img {
+  height: 1cm;
+}
+
+.advantage__title {
+  margin-bottom: 0.3cm;
+
+  font-size: 12pt;
+  font-weight: bold;
+  color: #0078dc;
+}
+
+.advantage__text {
+  font-size: 8pt;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.3cm 2cm;
+}
+
+.review {
+  margin: 0 0.3cm;
+  width: calc(33.3% - 0.6cm);
+
+  background: #f5f5f5;
+}
+
+.review iframe {
+  width: 100%;
+  height: 3.1cm;
+}
+
+.review__video {
+  margin-bottom: 0.5cm;
+}
+
+.review__title {
+  margin-bottom: 0.4cm;
+
+  text-align: center;
+  font-size: 10pt;
+  color: #0078dc;
+  font-weight: 600;
+}
+
+.review__title span {
+  display: inline-block;
+  padding-bottom: 0.05cm;
+  border-bottom: 1px solid #0078dc;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6cm 1.5cm 0cm;
+  margin: 0 -1.5cm -2cm;
+
+  background: #f5f5f5;
+}
+.manager {
+  position: relative;
+  padding-left: 5.4cm;
+  padding-bottom: 0.8cm;
+}
+
+.manager__title {
+  font-size: 8pt;
+  font-weight: 600;
+  margin-bottom: 0.07cm;
+}
+
+.manager__name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0.5cm;
+}
+
+.manager img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 4.7cm;
+}
+.main-footer__text {
+  width: 4.84cm;
+  font-size: 7pt;
+}
+
+.contacts__phone,
+.contacts__mail {
+  font-size: 8pt;
+}
+
+.contacts__phone span,
+.contacts__mail a {
+  font-weight: bold;
+}
+
+.contacts__mail a {
+  color: #0078dc;
+}
